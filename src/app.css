@@ -1,0 +1,122 @@
+.name {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #eb0c0c;
+    text-shadow: 2px 2px 4px #000000;
+    animation: fluidPulse 2s infinite;
+}
+.custom_btn{
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    size: 100px;
+    background-color: #bd3817;
+
+}
+.custom_btn:hover{
+    background-color: #c98827; 
+    color: inherit !important;
+}
+
+.custom_btn:focus,
+.custom_btn:active {
+    background-color: #bd3817 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+h2 {
+    text-align: center;
+    color: #bae00e;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}   
+
+
+.button-test {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding-left: 24px;
+}
+.kg-row{
+    margin:5px;
+}
+.text-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+input{
+
+    width: 100%;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #333;
+}
+
+.container{
+    text-align: left;
+}
+
+.kg-btn{
+    min-width: 100px;
+}
+.kg-btn:hover{
+    background-color: #0f0f0f00; 
+    color: inherit !important;
+}
+
+.btn-success {
+   color: rgb(31, 29, 29);
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/1445082.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-sm {
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fluidPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.navbar-container {
+    padding: 15px;
+
+}
+.radius{
+    border-radius: 10px;
+}
