@@ -1,7 +1,7 @@
 import ButtonTest from "./button_test.jsx";
 import Name from "./name.jsx";
 import Header from "./header.jsx";
-import "./App.css";
+import "./app.css";
 import MarketItems from "./marketitem.jsx";
 import Footer from "./footer.jsx";
 import { useState } from "react";
