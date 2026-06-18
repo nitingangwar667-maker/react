@@ -4,6 +4,8 @@ import Header from "./header.jsx";
 import "./app.css";
 import MarketItems from "./marketitem.jsx";
 import Footer from "./footer.jsx";
+import Rules from "./Rules.jsx";
+import { Routes, Route } from 'react-router-dom'
 import { useState } from "react";
 
 function App() {
@@ -64,7 +66,7 @@ function App() {
     setText(inputValue);
   };
 
-  return (
+  const Home = () => (
     <div className="App">
       <div>
         <h2>Welcome {name} service center !</h2>
@@ -82,7 +84,14 @@ function App() {
       <MarketItems marketitems={marketitems} onClick={onClick} />
       <Footer />
     </div>
-  );
+  )
+
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/rules" element={<Rules />} />
+    </Routes>
+  )
 }
 
 export default App;

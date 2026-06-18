@@ -83,11 +83,13 @@ input:focus {
 #root {
     width: 100%;
     height: 100vh;
-    background-image: url('https://wallpaperaccess.com/full/1445082.jpg');
+    background-image: url('./assets/i2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 
 .col-sm {
     color: white;
@@ -119,4 +121,32 @@ input:focus {
 }
 .radius{
     border-radius: 10px;
+}
+
+.rules-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin-right: 100px;
+
+}
+.rulesmainheading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #e7eb0c;
+    text-shadow: 2px 2px 4px #969393;
+    text-decoration-color: #0f0f0f;
+    animation: fluidPulse 2s infinite;
+}
+
+.rulescss{
+    font-size: 20px;
+    color: #e7eb0c;
+    text-shadow: 2px 2px 4px #969393;
+    text-decoration-color: #0f0f0f;
 }

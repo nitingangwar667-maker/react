@@ -1,8 +1,6 @@
 import Home from './navbar/home.jsx';
 import Dropdown from './navbar/dropdown.jsx';
-import './App.css';
-import Link from './navbar/link.jsx';
-import Rules from './Rules.jsx';
+import RulesLink from './navbar/rules_link.jsx';
 function ButtonTest() {
   return (
     <div className="navbar-container">
@@ -26,9 +24,8 @@ function ButtonTest() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <Home />
-              <Link />
+              <RulesLink />
               <Dropdown />
-              <Rules />
             </ul>
             <form className="d-flex" role="search">
               <input
